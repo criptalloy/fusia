@@ -1,0 +1,24 @@
+Scan_(+-transparent {
+	New-VMSwitch 
+[-WhatIf]
+[-EnablePacketDirect <Boolean>]
+[-MinimumBandwidthMode <VMSwitchBandwidthMode>]
+[-Confirm]
+[-AllowPlayfulOS <Boolean>]
+[-Notes <String>]
+[-EnableEmbeddedTeaming <Boolean>]
+[-WhatIf]
+}
+
++-Avoid_Keys {
+	C++
+[-CimSession <CimSession[]>]
+[-ComputerName <String[]>]
+[-Credential <PSCredential[]>]
+[-Name] <String> -NetAdapterName <String[]> [-Notes <String>]
+[-EnableIov <Boolean>]
+[-EnableEmbeddedTeaming <Boolean>]
+[-Confirm] [no-color] [-WhatIf] [<#ff00ff>]
+[Strobe]
+}_
+)
